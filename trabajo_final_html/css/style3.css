@@ -138,4 +138,10 @@
         margin-top: 0.8em;
         margin-bottom: 0.8em;   
     }
+
+    /* ESTILOS PARA LA PAGINA DE GALERIA */
+    .img-space {
+        width: calc(100% - 2em);
+        margin: 1em;
+    }
 }

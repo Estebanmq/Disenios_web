@@ -27,8 +27,6 @@
         visibility: hidden;
         display: none;
     }
-
-
     
     #col1 {
         width: 30%;
@@ -38,5 +36,11 @@
     }
     #col3 {
         width: 35%;
+    }
+
+    /* ESTILOS PARA LA PAGINA DE GALERIA */
+    .img-space {
+        width: calc(50% - 1em);
+        margin: 0.5em;
     }
 }

@@ -4,106 +4,160 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Esteban Martínez Quintanar"/>
+    <meta name="keywords" content="HTML,CSS"/>
+    <meta name="description" content="Square Enix Sitio No Oficial"/> 
+    <!-- HOJAS DE ESTILOS -->
     <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="css/style2.css" media="screen and (max-width:1130px)"/>
-    <link rel="stylesheet" href="css/style3.css" media="screen and (max-width:895px)"/>
-    <link href="https://fonts.googleapis.com/css?family=Ubuntudisplay=swap" rel="stylesheet"/> <!-- ERROR CON EL &-->
-    <title>Inicio</title>
+    <link rel="stylesheet" href="css/style2.css" media="screen and (max-width:1220px)"/>
+    <link rel="stylesheet" href="css/style3.css" media="screen and (max-width:1000px)"/>
+    <!-- FUENTE DE GOOGLE-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap" rel="stylesheet"/>
+    <title>Square Enix - Galeria</title>
 </head>
 <body>
     <!-- NAVEGACION -->
     <nav>
-        <div id="navbar-content">
-            <div id="logo-container">
-                <img id="logo" src="img/logo.svg" alt="Logo Square Enix"/>  
+        <div id="navbar-content"><!-- Contenedor para el navbar -->
+            <div id="logo-container"><!-- Contenedor del logo -->
+                <img id="logo" src="img/logo.svg" alt="Logo Square Enix"/>
             </div>
-            <div id="links-container">
+            <div id="links-container"><!-- Contenedor de los links de navegacion -->
                 <ul>           
                     <li><a href="index.xhtml">Inicio</a></li>
                     <li><a id="active" href="#">Galería</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Notícias</a></li>
-                    <li><a href="">Juegos</a></li>
-                    <li><a href="">Tienda</a></li>
-                    <li><a href="">Sobre nosotros</a></li>
-                    <li><a href="">Cuenta</a></li>
+                    <li><a href="#blog-col">Blog</a></li>
+                    <li><a href="#notices-col">Notícias</a></li>
+                    <li><a href="#games-col">Juegos</a></li>
+                    <li><a href="#shop-col">Tienda</a></li>
+                    <li><a href="#t-col1">Sobre nosotros</a></li>
+                    <li><a href="#map-col">Contactanos</a></li>
                 </ul>
-            </div>
-            <div id="links-container-small-screen">        
-                <button id="btn-dropdown"><img src="img/menu-icon.png" alt="Icono menu" id="menu-icon"/></button>                        
-                <div id="dropdown-menu">
-                    <a href="#">Inicio</a>
-                    <a href="#">Galeria</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Noticias</a>
-                    <a href="#">Juegos</a>
-                    <a href="#">Tienda</a>
-                    <a href="#">Sobre nosotros</a>
-                    <a href="#">Cuenta</a>
-                </div>            
-            </div>
-        </div>        
+            </div><!-- Cierre contenedor de links de navegacion -->
+            <div id="links-container-small-screen"><!-- Contenedor para la navegacion en pantallas mas pequeñas por defecto oculto -->
+                <button id="btn-dropdown"><img src="img/menu-icon.png" alt="Icono menu" id="menu-icon"/></button> <!-- Boton para mostrar el dropdown-menu con la barra de navegacion -->             
+                <div id="dropdown-menu">                
+                    <a href="#" id="active-ss">Inicio</a>
+                    <a href="#gallery-container">Galeria</a>
+                    <a href="#blog-col">Blog</a>
+                    <a href="#notices-col">Noticias</a>
+                    <a href="#games-col">Juegos</a>
+                    <a href="#shop-col">Tienda</a>
+                    <a href="#t-col1">Sobre nosotros</a>
+                    <a href="#map-col">Contactanos</a>
+                </div>                     
+            </div><!-- Cierre contenedor navegacion pantallas pequeñas -->  
+        </div><!-- Cierre contenedor para navbar -->           
     </nav>
     <!-- FIN DE NAVEGACION -->
     <!-- CONTENIDO PRINCIPAL-->
-    <main>
-        
+    <main id="main-container">
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <h2>¡Bienvenido a la galería de Kingdom Hearts 3!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum nulla praesentium, dolore iure vitae similique consequuntur repudiandae est excepturi?º</p>
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <h2>Imagenes In-game</h2>
+        <div id="container-galery">
+            <!-- 2 IMAGENES -->
+            <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+            <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+            <!-- FIN 2 IMAGENES -->
+
+            <!-- 2 IMAGENES -->
+            <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+      
+            <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+            <!-- FIN 2 IMAGENES -->
+
+            <!-- 2 IMAGENES -->
+            <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+            <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+            <!-- FIN 2 IMAGENES -->
+
+            <!-- 2 IMAGENES -->
+            <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+            <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+            <!-- FIN 2 IMAGENES -->
+
+            <!-- 2 IMAGENES -->
+            <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+            <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+            <!-- FIN 2 IMAGENES -->
+        </div>
     </main>
     <!-- FIN CONTENIDO PRINCIPAL -->
 
     <!-- FOOTER -->
-    <div id="footer-container">
+    <div id="footer-container"><!-- Contenedor para el footer -->
         <footer>
-            <div id="col1">
+            <div id="col1"><!-- Columna 1 para el footer-posicionamiento en la izquierda -->
                 <ul>           
                     <li class="li-c1-style"><h4>Sobre nosotros</h4></li>
-                    <li class="li-c1-style">Direccion</li>
-                    <ul class="sub-ul-c1">
-                        <li>Calle Corazon Nª15</li>
-                    </ul>
-                    <li class="li-c1-style pt1">Email de contacto</li>
-                    <ul class="sub-ul-c1">
-                        <li>example@example.com</li>
-                    </ul>
+                    <!---->
+                    <li class="li-c1-style">Direccion</li>                    
+                    <li class="sub-ul-c1">Calle Corazon Nª15</li>                    
+                    <!---->
+                    <li class="li-c1-style pt1">Email de contacto</li>                    
+                    <li class="sub-ul-c1">example@example.com</li>                    
+                    <!---->
                     <li class="li-c1-style pt1">Telefono de contacto</li>
-                    <ul class="sub-ul-c1">
-                        <li>123-456-789</li>
-                    </ul>                    
+                    <li class="sub-ul-c1">123-456-789</li>
+                    <!---->
                 </ul>
-            </div>
-            <div id="col2">
+            </div><!-- Fin columna 1 -->
+            <div id="col2"><!-- Columna 2 para el footer-posicionamiento centrado -->
                 <ul>           
-                    <li class="li-c2-style"><h4>Sobre nosotros</h4></li>
-                    <li class="li-c2-style">Direccion</li>                   
-                    <li class="sub-ul-c2">Calle Corazon Nª15</li>
-                    <li class="li-c2-style pt1">Email de contacto</li>               
-                    <li class="sub-ul-c2">example@example.com</li>            
-                    <li class="li-c2-style pt1">Telefono de contacto</li>              
-                    <li class="sub-ul-c2">123-456-789</li>                                   
+                    <li class="li-c2-style"><h4>Nuestro equipo</h4></li>
+                    <!---->
+                    <li class="li-c2-style">Developers</li>                   
+                    <li class="sub-ul-c2">Esteban Martínez Quintanar</li>
+                    <!---->
+                    <li class="li-c2-style pt1">Front End</li>               
+                    <li class="sub-ul-c2">Esteban Martínez Quintanar</li>     
+                    <!---->
+                    <li class="li-c2-style pt1">Back End</li>              
+                    <li class="sub-ul-c2">Esteban Martínez Quintanar</li>
+                    <!---->
                 </ul>
-            </div>
-            <div id="col3">
+            </div><!-- Fin columna 2 -->
+            <div id="col3"><!-- Columna 3 para el footer-posicionamiento en la derecha -->
                 <ul class="pr3">           
-                    <li class="li-c3-style"><h4>Sobre nosotros</h4></li>
-                    <li class="li-c3-style">Direccion</li>
-                    <ul class="sub-ul-c3">
-                        <li>Calle Corazon Nª15</li>
-                    </ul>
-                    <li class="li-c3-style pt1">Email de contacto</li>
-                    <ul class="sub-ul-c3">
-                        <li>example@example.com</li>
-                    </ul>
-                    <li class="li-c3-style pt1">Telefono de contacto</li>
-                    <ul class="sub-ul-c3">
-                        <li>123-456-789</li>
-                    </ul>                    
+                    <li class="li-c3-style"><h4>Redes Sociales</h4></li>
+                    <!---->
+                    <li class="li-c3-style">Twitter</li>
+                    <li class="sub-ul-c3">@estebanmq09</li>
+                    <!---->
+                    <li class="li-c3-style pt1">Instagram</li>
+                    <li class="sub-ul-c3">Esteban Martínez Quintanar</li>
+                    <!---->
+                    <li class="li-c3-style pt1">Gmail</li>
+                    <li class="sub-ul-c3">estebanmq.09@gmail.com</li>
+                    <!---->                  
                 </ul>
-            </div>
-          
-            <p id="copy">&copy; 2020 Esteban Martínez Quintanar, Madrid, España</p>
-        </footer>
-    
-    </div>
+            </div><!-- Fin columna 3 -->          
+            <p id="copy">&copy; 2020 Esteban Martínez Quintanar, Madrid, España</p> <!-- Parrafo centrado para el Copyright -->
+        </footer>    
+    </div><!-- Fin contenedor para el footer -->
     <!-- FIN FOOTER -->
 </body>
 </html>
