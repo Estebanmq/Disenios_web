@@ -1,0 +1,110 @@
+@media screen and (max-width:900px) {
+    /* ESTILOS BARRA DE NVEGACION */
+    nav {    
+        width: 100%; 
+        clear: left;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+    #navbar-content {
+        width: 100%;
+        height: 40px;
+    }
+    #logo-container {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 65%;  
+        height: 100%;  
+        float: left;     
+    }
+    #logo {           
+        width: 200px;
+        height: 100%;  
+    }
+    #links-container {
+        visibility: hidden !important;     
+        display: none !important;
+    }
+    #links-container-small-screen {
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        margin: 0 auto;
+        width: 35%;
+        height: 100%;  
+        visibility: visible;
+    }
+    #btn-dropdown {
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        background-color: #333;
+        float: right;
+        height: 100%;
+    }
+    #links-container-small-screen:hover #dropdown-menu { /* Al pasar el raton por encima muestra la navegacion para pantallas pequeñas al ser hijo de links-container-small-screen*/
+        display: block;
+        
+    }
+    #dropdown-menu {
+        text-align: center;
+        visibility: visible;
+        display: none;
+    }
+    #dropdown-menu a {
+        padding: 0.6em;
+        text-decoration: none;
+        display: block;
+        color: #4ecdc4;
+        background-color: #333;
+    }   
+    #dropdown-menu a:hover {
+        color: #fff;
+        background-color: rgb(35, 34, 34);
+        transition-duration: 0.5s;
+    }
+    #active-ss {
+        color: #fff !important;
+    }
+    #menu-icon {
+        width: 30px;
+    }
+
+    /* ESTILOS CONTENIDO PRINCIPAL*/
+    #gallery-img-1 {
+        width: 100%;
+    }
+    #t-col1 {
+        width: calc(100% - 3em);
+        font-size: 0.8em;
+    }
+    #t-col2 {
+        width: calc(100% - 3em);
+        font-size: 0.8em;
+    }
+    #t-col3 {
+        width: calc(100% - 3em);
+        font-size: 0.8em;
+    }
+    .member-style {
+        width: 40%;
+    }
+    /* ESTILOS FOOTER */
+    #col1 {
+        visibility: hidden !important;
+        display: none !important;
+    }
+    #col2 {
+        visibility: hidden !important;
+        display: none !important;
+    }
+    #col3 {
+        visibility: hidden !important;
+        display: none !important;
+    }
+    #copy {
+        font-size: 0.8em;
+    } 
+}

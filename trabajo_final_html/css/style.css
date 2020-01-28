@@ -1,0 +1,331 @@
+html {
+    scroll-behavior: smooth;
+    
+}
+body {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    margin: 0 auto;   
+    /* IMAGEN DE FONDO */
+    background-image: url('../img/background-image.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center; 
+    background-attachment: fixed;
+    background-color: #333;
+}
+
+/* ESTILOS BARRA DE NAVEGACION */
+nav {         
+    width: calc(100% - 1em); /* Resta los em del padding al width total para que no sobrepase el width y ocupe mas que el 100%  */
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding: 0.5em;
+    clear: left;
+    /* Estas 3 propiedades fijan el navbar siempre en lo alto de la pagina y no desaparece al hacer scroll hacia abajo */ 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    /**/
+    background-color: #333;
+}
+nav ul li {
+    margin: 2%;
+    font-size: 1.2em;    
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #4ecdc4;
+}
+nav ul li a:hover{    
+    color: #fff;
+    transition-duration: 0.5s;
+}
+#links-container ul li a#active{ /* Con active pongo un diseño distinto a la pagina del navbar donde nos situamos para identificar mas rapido donde nos situamos */
+    color: #fff; 
+    font-size: 1.2em;
+    border-radius: 0.1em;
+    border-bottom: 3px solid #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+#navbar-content {
+    width: 100%;
+    height: 50px;
+}
+#logo-container {
+    /* Centrado vertical y horisontalmente para el contenedor del logo */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /**/
+    width: 20%;  
+    height: 100%;  
+    float: left;
+}
+#logo {    
+    width: 100%;
+    height: 100%;  
+}
+#links-container {
+    width: 80%;
+    height: 100%;  
+    float: left;    
+}
+#links-container-small-screen { /* Oculto y quito el boton para desplegar el menu de navegacion para pantallas pequeñas*/
+    visibility: hidden;
+    display: none;
+}
+#dropdown-menu { /* Oculto y quito el menu de navegacion para pantallas pequeñas*/
+    visibility: hidden;
+    display: none;
+}
+
+
+
+/* ESTILOS CONTENIDO PRINCIPAL */
+main {    
+    width: 100%;
+    text-align: center;
+}
+
+
+/* CONTENEDOR SLIDER */
+#slider-container {
+    width: 100%;
+    float: left;
+}
+#slider-images {
+    width: 100%;
+    float: left;
+}
+.slider-img {    
+    width: 100%;
+    height: 100%;
+}
+
+
+/* CONTENEDOR PARA GALERIA */
+#gallery-container {
+    width: 100%;
+    float: left;
+}
+#gallery-img-1 {
+    width:  100%;
+}
+#gallery-container-2 {
+    color: #fff;    
+    border-radius: 0.2em;
+    width: calc(100% - 2em);
+    margin: 0 auto;
+    padding: 1em;
+}
+.btn-navigation {
+    font-size: 0.9em;
+    padding: 0.4em;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #22524f;
+    border-radius: 0.1em;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 80%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(270deg, rgba(255,255,255,0) 80%, rgba(255,255,255,1) 100%);
+    background: -moz-linear-gradient(270deg, rgba(255,255,255,0) 80%, rgba(255,255,255,1) 100%);
+    
+}
+.btn-navigation:hover {
+    font-size: 1em;
+    transition-duration: 0.1s;
+}
+#gallery-container-2 button a{
+    text-decoration: none;
+    color: #333;
+}
+/* CONTENEDOR BLOG Y NOTICIAS */
+#shop-games-container {
+    width: calc(100% - 1em);
+    color: #fff;
+    
+}
+#shop-col {
+    width: 50%;
+    float: left;    
+}
+#shop-img {
+    width: 50%;
+    border: 2px solid #fff;
+}
+#games-col {
+    width: 50%;
+    float: left;
+}
+#games-img {
+    width: 50%;
+    border: 2px solid #fff;
+}
+/* CONTENEDOR JUEGOS Y TIENDA */
+#blog-notices-container {
+    width: calc(100% - 1em);
+    color: #fff;
+    
+}
+#blog-col {
+    width: 50%;
+    float: left;    
+}
+#blog-img {
+    width: 50%;
+    border: 2px solid #fff;
+}
+#notices-col {
+    width: 50%;
+    float: left;
+}
+#notices-img {
+    width: 50%;
+    border: 2px solid #fff;
+}
+/* CONTENEDOR MAPA Y CONTACTO */
+#about-us-container {
+    width: 100%;
+    float: left;
+    
+}
+#map-col {
+    width: 100%;
+    float: left;
+}
+#map-col iframe { 
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+#about-us-nav-col {
+    width: 100%;
+    float: left;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* CONTENEDOR EQUIPO */
+#team {
+    width: 100%;
+}
+#t-col1 {
+    width: calc(33.3% - 3em);
+    height: auto;
+    float: left; 
+    color: #fff;
+}
+#t-col2 {
+    width: calc(33.3% - 3em);
+    height: auto;
+    float: left; 
+    color: #fff;
+}
+#t-col3 {
+    width: calc(33.3% - 3em);
+    height: auto;
+    float: left; 
+    color: #fff;
+}
+.member-style {
+    width: 50%;
+    border-radius: 50%;
+}
+/* ESTILOS FOOTER */
+footer {
+    width: 100%;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    background-color: rgba(51, 51, 51, 0.99);
+    text-align: left;
+    font-size: 0.8em;
+}
+footer ul {
+    list-style-type: none;
+}
+footer ul li {
+    text-align: left;
+    text-decoration: none;
+}
+#col1 {
+    width: 30%;
+    height: auto;
+    float: left; 
+}
+.li-c1-style {
+    color: #fff;
+}
+.sub-ul-c1{
+    color: rgb(188, 188, 188);
+}
+#col2 {
+    width: 40%;
+    height: auto;
+    float: left; 
+}
+.li-c2-style {
+    color: #fff;
+    text-align: center;
+}
+.sub-ul-c2 {
+    color: rgb(188, 188, 188);
+    text-align: center;
+}
+#col3 {
+    width: 30%;
+    height: auto;
+    float: left; 
+}
+.li-c3-style {
+    color: #fff;
+    text-align: right;
+}
+.sub-ul-c3 li{
+    color: rgb(188, 188, 188);
+    text-align: right;
+}
+footer > p {    
+    clear: left;
+    color: #fff;
+    text-align: center;
+    background-color: black;
+    padding: 1.2em;
+    margin: 0;
+}
+/* ESTILOS RAPIDOS */
+.pt1 {
+    padding-top: 1em;
+}
+.pt2 {
+    padding-top: 1.5em;
+}
+.pr1 {
+    padding-right: 1em;
+}
+.pr2 {
+    padding-right: 1.5em;
+}
+.pr3 {
+    padding-right: 2em;
+}
+.p1 {
+    padding: 1em;
+}
+.p2 {
+    padding: 1.5em;
+}
+.p3 {
+    padding: 2em;
+}
+.space-containers {
+    width: 100%;
+    float: left;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
