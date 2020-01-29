@@ -37,8 +37,8 @@
             <div id="links-container-small-screen"><!-- Contenedor para la navegacion en pantallas mas pequeñas por defecto oculto -->
                 <button id="btn-dropdown"><img src="img/menu-icon.png" alt="Icono menu" id="menu-icon"/></button> <!-- Boton para mostrar el dropdown-menu con la barra de navegacion -->             
                 <div id="dropdown-menu">                
-                    <a href="#" id="active-ss">Inicio</a>
-                    <a href="#gallery-container">Galeria</a>
+                    <a href="index.xhtml">Inicio</a>
+                    <a  id="active-ss" href="#gallery-container">Galeria</a>
                     <a href="#blog-col">Blog</a>
                     <a href="#notices-col">Noticias</a>
                     <a href="#games-col">Juegos</a>
@@ -55,8 +55,10 @@
         <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
         <h2>¡Bienvenido a la galería de Kingdom Hearts 3!</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum nulla praesentium, dolore iure vitae similique consequuntur repudiandae est excepturi?º</p>
+        <a class="btn-navigation m1 mt1" href="#gameplay">Gameplay</a>
+        <a class="btn-navigation m1 mt1" href="#lore">Historia</a>
         <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
-        <h2>Imagenes In-game</h2>
+        <h2 id="gameplay">Imagenes In-game</h2>
         <div id="container-galery">
             <!-- 2 IMAGENES -->
             <div class="img-space">
@@ -79,6 +81,19 @@
 
             <!-- 2 IMAGENES -->
             <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+            <div class="img-space">
+                <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
+            </div> 
+            <!-- FIN 2 IMAGENES -->
+
+            <hr/>
+            <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->            
+            <h2>Imagenes de la historia</h2>            
+
+            <!-- 2 IMAGENES -->
+            <div id="lore" class="img-space">
                 <img class="img-galery" src="https://placehold.it/1920x1080" alt="Imagen de la galeria"/>
             </div> 
             <div class="img-space">

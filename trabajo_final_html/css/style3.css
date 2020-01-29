@@ -15,7 +15,7 @@
         justify-content: center;
         align-items: center;
         display: flex;
-        width: 65%;  
+        width: 70%;  
         height: 100%;  
         float: left;     
     }
@@ -32,7 +32,7 @@
         align-items: center;
         display: inline-block;
         margin: 0 auto;
-        width: 35%;
+        width: 30%;
         height: 100%;  
         visibility: visible;
     }
