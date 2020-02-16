@@ -43,4 +43,9 @@
         width: calc(50% - 1em);
         margin: 0.5em;
     }
+
+    /* ESTILOS PARA LA PAGINA DE BLOG */
+    .title-blog h1{
+        padding-top: 2em;
+    }
 }
