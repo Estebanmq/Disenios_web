@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style3.css" media="screen and (max-width:1000px)"/>
     <!-- FUENTE DE GOOGLE-->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap" rel="stylesheet"/>
-    <title>Square Enix - Galeria</title>
+    <title>Square Enix - Inicio</title>
 </head>
 <body>
     <!-- NAVEGACION -->
@@ -25,27 +25,28 @@
             <div id="links-container"><!-- Contenedor de los links de navegacion -->
                 <ul>           
                     <li><a href="index.xhtml">Inicio</a></li>
-                    <li><a id="active" href="#">Galería</a></li>
+                    <li><a href="galeria.xhtml">Galería</a></li>
                     <li><a href="blog.xhtml">Blog</a></li>
                     <li><a href="cine.xhtml">Cine</a></li>
                     <li><a href="juegos.xhtml">Juegos</a></li>
                     <li><a href="tienda.xhtml">Tienda</a></li>
-                    <li><a href="nosotros.xhtml">Sobre nosotros</a></li>
-                    <li><a href="contacto.xhtml">Contactanos</a></li>
+                    <li><a href="#" id="active" >Sobre nosotros</a></li>
+                    <li><a href="contacto.xhtml">Contáctanos</a></li>
                 </ul>
             </div><!-- Cierre contenedor de links de navegacion -->
-            <div id="links-container-small-screen"><!-- Contenedor para la navegacion en pantallas mas pequeñas por defecto oculto -->
+            <div id="links-container-small-screen"><!-- Contenedor para la navegacion en pantallas mas pequeñas
+            por defecto oculto -->
                 <button id="btn-dropdown"><img src="img/menu-icon.png" alt="Icono menu" id="menu-icon"/></button> <!-- Boton para mostrar el dropdown-menu con la barra de navegacion -->             
                 <br/>
-                <br/>
+                <br/>   
                 <div id="dropdown-menu">                
-                    <a href="index.xhtml">Inicio</a>
-                    <a  id="active-ss" href="#">Galeria</a>
+                    <a href="index.xhtml" >Inicio</a>
+                    <a href="galeria.xhtml">Galeria</a>
                     <a href="blog.xhtml">Blog</a>
                     <a href="cine.xhtml">Cine</a>
                     <a href="juegos.xhtml">Juegos</a>
                     <a href="tienda.xhtml">Tienda</a>
-                    <a href="nosotros.xhtml">Sobre nosotros</a>
+                    <a href="#" id="active-ss">Sobre nosotros</a>
                     <a href="contacto.xhtml">Contactanos</a>
                 </div>                     
             </div><!-- Cierre contenedor navegacion pantallas pequeñas -->  
@@ -54,73 +55,69 @@
     <!-- FIN DE NAVEGACION -->
     <!-- CONTENIDO PRINCIPAL-->
     <main id="main-container">
+        <div id="about-square-row"><!-- Contenedor logo y texto descripcion -->
+            <img src="img/logo.svg" alt="" />
+            <h1>Nuestra compañia</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati veritatis quisquam vel? Maiores nesciunt quisquam maxime alias quos accusantium sed recusandae corporis illo esse, molestias iure suscipit aut quaerat dolore.</p>
+        </div><!-- Fin Contenedor logo y texto descripcion -->
+        <div class="more-info-row"><!-- Contenedor fila -->
+            <div class="more-info-col-text"><!-- Contenedor izquierdo texto -->
+                <h2>Sobre nuestra compañia y proyectos</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis officia inventore adipisci.</li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi maiores accusamus voluptatum.</li>
+                </ul>
+            </div><!-- Fin Contenedor izquierdo texto -->
+            <div class="more-info-col-img"><!-- Contenedor derecho img -->
+                <div class="sub-col-1">
+                    <h1>#1</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="sub-col-2"></div>
+            </div><!-- Fin Contenedor derecho img -->
+        </div><!-- Fin Contenedor fila -->
+        
+        <div class="more-info-row"><!-- Contenedor fila -->           
+            <div class="more-info-col-img"><!-- Contenedor derecho img -->
+                <div class="sub-col-1">
+                    <h1>#1</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="sub-col-2"></div>
+            </div><!-- Fin Contenedor derecho img -->
+            <div class="more-info-col-text"><!-- Contenedor izquierdo texto -->               
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis officia inventore adipisci.</li>
+                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi maiores accusamus voluptatum.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam aliquid, dignissimos debitis enim laudantium eos temporibus optio quo architecto iusto laboriosam error neque, libero nesciunt odit rem incidunt ducimus, harum modi nam beatae.</li>
+                </ul>
+            </div><!-- Fin Contenedor izquierdo texto -->
+        </div><!-- Fin Contenedor fila -->
+
         <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
-        <h2>¡Bienvenido a la galería de Kingdom Hearts 3!</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum nulla praesentium, dolore iure vitae similique consequuntur repudiandae est excepturi?º</p>
-        <a class="btn-navigation m1 mt1" href="#gameplay">Gameplay</a>
-        <a class="btn-navigation m1 mt1" href="#lore">Historia</a>
-        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
-        <h2 id="gameplay">Imagenes In-game</h2>
-        <div id="container-galery">
-            <!-- 2 IMAGENES -->
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/arch" alt="Imagen de la galeria"/>
-            </div> 
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/tech" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
 
-            <!-- 2 IMAGENES -->
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/animals" alt="Imagen de la galeria"/>
-            </div> 
-      
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/nature" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
-
-            <!-- 2 IMAGENES -->
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/people" alt="Imagen de la galeria"/>
-            </div> 
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/tech" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
-
-            <hr/>
-            <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->            
-            <h2>Imagenes de la historia</h2>            
-
-            <!-- 2 IMAGENES -->
-            <div id="lore" class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/arch" alt="Imagen de la galeria"/>
-            </div> 
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/tech" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
-
-            <!-- 2 IMAGENES -->
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/grayscale" alt="Imagen de la galeria"/>
-            </div> 
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/arch" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
-
-            <!-- 2 IMAGENES -->
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/animals" alt="Imagen de la galeria"/>
-            </div> 
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/sepia" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
+        <h2>Nuestros Miembros</h2>
+        <div class="team"><!--Contenedor equipo-->
+            <div class="t-col1 p2">
+                <img src="https://placeimg.com/894/894/animals" alt="Imagen miembro del equipo" class="member-style"/>
+                <h3>Nombre</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae optio hic, exercitationem dolorem,</p>
+                <a class="btn-navigation" href="miembro.xhtml">Miembro #1</a>
+            </div>
+            <div class="t-col2 p2">
+                <img src="https://placeimg.com/894/894/tech" alt="Imagen miembro del equipo" class="member-style"/>
+                <h3>Nombre</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, adipisci id aliquam </p>
+                <a class="btn-navigation" href="miembro.xhtml">Miembro#2</a>
+            </div>
+            <div class="t-col3 p2">
+                <img src="https://placeimg.com/894/894/people" alt="Imagen miembro del equipo" class="member-style"/>
+                <h3>Nombre</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod sunt natus sit quibusdam </p>
+                <a class="btn-navigation" href="miembro.xhtml">Miembro #3</a>
+            </div>
         </div>
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
     </main>
     <!-- FIN CONTENIDO PRINCIPAL -->
 

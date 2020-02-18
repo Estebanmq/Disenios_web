@@ -78,8 +78,8 @@
     /* ESTILOS CONTENIDO PRINCIPAL*/
     #gallery-img-1 {
         width: 100%;
+        height: 200px;
     }
-
     #about-us-container iframe { 
         width: 100%;
         height: 300px;
@@ -99,7 +99,7 @@
         float: left;
         margin-bottom: 3em;    
     }
-    #notices-col {
+    #cinema-col {
         width: 100%;
         float: left;
     }
@@ -162,33 +162,19 @@
     .blog-post {
         width: calc(100% - 4em);
     }
+    .blog-post img{
+        height: 0px;
+    }
     .large-blog-post {
         width: calc(100% - 4em);
     }
     .container-lbp-1 {
         width: 100%;
     }
+    .container-lbp-1 img{
+        height: 0px;
+    }
     .container-lbp-2 {
         width: calc(100% - 2em);
     }
-    .large-blog-post:hover img {
-        height: 0px;
-    }
-    .large-blog-post img {
-        width: 100%;
-        height: 100%;
-        /* Una vez definido que quiero que haga en el :hover aqui lo que hago es definir como se va a realizar la transicion */
-        transition-property: height; /* Defino que propiedades de las anteriores van a realizar la transicion */ 
-        -moz-transition-property: height;
-        -o-transition-property: height;
-        -webkit-transition-property: height;
-        transition-timing-function: linear; /* Defino que la velocidad en toda la transicion sea igual tanto al principio como al final */ 
-        -moz-transition-timing-function: linear;
-        -o-transition-timing-function: linear;
-        -webkit-transition-timing-function: linear;
-        transition-duration: 0.4s; /* Defino cuanto dura la transicion  */ 
-        -moz-transition-duration: 0.4s;
-    }
-    
-
 }

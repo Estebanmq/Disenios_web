@@ -117,7 +117,8 @@ main {
     float: left;
 }
 #gallery-img-1 {
-    width:  90%;
+    width:  100%;
+    height: 600px;
 }
 #gallery-container-2 {
     color: #fff;    
@@ -126,7 +127,7 @@ main {
     margin: 0 auto;
     padding: 1em;
 }
-.btn-navigation {
+.btn-navigation, button {
     font-size: 1em;
     padding: 0.4em;
     color: #fff;
@@ -138,13 +139,13 @@ main {
     background: -moz-linear-gradient(270deg, rgba(255,255,255,0) 80%, rgba(255,255,255,1) 100%);
     
 }
-.btn-navigation:hover {
+.btn-navigation:hover, button:hover {
     /* Defino los valores que quiero que haga cuando paso el raton por encima */
     background-color: #fff;
     color: #333;
     box-shadow: 4px 8px;
 }
-.btn-navigation {
+.btn-navigation, button {
     /* Una vez definido que quiero que haga en el :hover aqui lo que hago es definir como se va a realizar la transicion */
     transition-property: background-color, color, box-shadow; /* Defino que propiedades de las anteriores van a realizar la transicion */ 
     -moz-transition-property: background-color, color, box-shadow;
@@ -184,7 +185,7 @@ main {
     border: 2px solid #fff;
 }
 /* CONTENEDOR JUEGOS Y TIENDA */
-#blog-notices-container {
+#blog-cinema-container {
     width: 100%;
     color: #fff;
     
@@ -197,11 +198,11 @@ main {
     width: 50%;
     border: 2px solid #fff;
 }
-#notices-col {
+#cinema-col {
     width: 50%;
     float: left;
 }
-#notices-img {
+#cinema-img {
     width: 50%;
     border: 2px solid #fff;
 }
@@ -209,7 +210,6 @@ main {
 #about-us-container {
     width: 100%;
     float: left;
-    
 }
 #map-col {
     width: 100%;
@@ -228,22 +228,22 @@ main {
     margin-right: auto;
 }
 /* CONTENEDOR EQUIPO */
-#team {
+.team {
     width: 100%;
 }
-#t-col1 {
+.t-col1 {
     width: calc(33.3% - 3em);
     height: auto;
     float: left; 
     color: #fff;
 }
-#t-col2 {
+.t-col2 {
     width: calc(33.3% - 3em);
     height: auto;
     float: left; 
     color: #fff;
 }
-#t-col3 {
+.t-col3 {
     width: calc(33.3% - 3em);
     height: auto;
     float: left; 
@@ -431,6 +431,427 @@ footer > p {
   width: 100%;
   height: 405px;
 }
+
+
+/* ESTILOS PARA LA PAGINA DE POST */
+#img-title-row {
+    width: 100%;
+    background-image: url("https://placeimg.com/1920/1080/arch");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+#img-title-row div {
+    background-color: rgba(33, 33, 33, 0.8);
+    height: 250px;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+}
+#post-content {
+    width: 100%;   
+    text-align: justify;
+}
+#post-content article {
+    width: calc(60% - 9em - 2px);
+    float: left;
+    margin-left: 6em;
+    padding: 1.5em;
+    color: #333;
+    background-color: rgb(222, 218, 218);
+    border-right: 2px solid #333;
+    border-top: 4px solid #4ecdc4;
+    border-bottom: 4px solid #4ecdc4;
+    height: 850px;
+}
+#post-content aside {
+    width: calc(40% - 9em);
+    float: left;
+    margin-right: 6em;
+    padding: 1.5em;
+    color: #333;
+    background-color: rgb(222, 218, 218);
+    border-top: 4px solid #4ecdc4;
+    border-bottom: 4px solid #4ecdc4;
+    text-align: center;
+    height: 850px;
+}
+#post-content aside h4{
+    border-bottom: 2px solid #144844;
+    border-radius: 0.2em;
+    width: 20%;
+    margin-left: 40%;
+}
+.related-post-img {
+    width: 80%;
+    border: 2px solid #22524f;
+}
+.post-img {
+    width: 100%;
+}
+
+
+/* ESTILOS PARA LA PAGINA DE MIEMBRO*/
+
+.member-page-style-img {
+    width: 100%;
+    border: 2px solid #22524f;
+    border-radius: 0.5em;
+}
+.member-info-container-1 {
+    width: calc(20% - 6em);
+    float: left;
+    margin-left: 6em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.member-info-container-2 {
+    width: calc(80% - 6em);
+    float: left;
+    text-align: left;
+    margin-left: 6em;
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+.about-container-f {
+    
+    border-radius: 0.5em;
+    margin-left: 3em;
+    margin-right: 3em;
+    clear: left;
+}
+.about-container {
+    margin-top: 2em;
+    width: 50%;
+    float: left;
+    height: 200px;
+}
+#rs-member {
+    clear: left;
+
+}
+.space-column {
+    width: 35%;
+    float: left;
+}
+.icon {
+    width: 10%;
+    background-color: #4ecdc4;
+    border-radius: 50%;
+    margin: 0.5em;
+    padding: 0.1em;
+}
+.icon-column {
+    width: 30%;
+    float: left;
+}
+
+
+/* ESTILOS PARA LA PAGINA DE JUEGOS */
+#title {
+    background-color: rgba(74, 74, 74, 0.9);
+    padding: 1em;
+}
+.games-row {
+    width: 100%;
+}
+.scroll-space {
+    width: 10%;
+    float: left;
+}
+.scroll-space-1c {
+    width: 27.5%;
+    float: left;
+}
+.games-col {
+    width: 45%;
+    float: left;
+}
+.games-sub-col-1 {
+    width: 30%;
+    float: left;
+}
+.games-sub-col-2 {
+    width: 70%;
+    float: left;
+}
+.pin-img {
+    width: 20%;
+}
+.title-chapter {
+    width: 100%;
+    clear: left;
+    text-align: center;
+}
+.title-chapter h2 {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 70%, rgb(57, 184, 155) 100%);
+    width: 20%;
+    margin-left: 40%;
+}
+/* Estilos cronologia */
+.img-phase {
+    width: 50%;
+}
+.hidden-info {
+    height: 0px;
+    visibility: hidden;
+}
+#to-info-game-1:hover #info-game-1, #to-info-game-2:hover #info-game-2, 
+#to-info-game-3:hover #info-game-3, #to-info-game-4:hover #info-game-4,
+#to-info-game-5:hover #info-game-5, #to-info-game-6:hover #info-game-6,
+#to-info-game-7:hover #info-game-7, #to-info-game-8:hover #info-game-8 {
+    height: 300px;
+    visibility: visible;
+}
+#to-info-game-1 #info-game-1, #to-info-game-2 #info-game-2,
+#to-info-game-3 #info-game-3, #to-info-game-4 #info-game-4,
+#to-info-game-5 #info-game-5, #to-info-game-6 #info-game-6, 
+#to-info-game-7 #info-game-7, #to-info-game-8 #info-game-8 {
+    /* Una vez definido que quiero que haga en el :hover aqui lo que hago es definir como se va a realizar la transicion */
+    transition-property: height; /* Defino que propiedades de las anteriores van a realizar la transicion */ 
+    -moz-transition-property: height;
+    -o-transition-property: height;
+    -webkit-transition-property: height;
+    transition-timing-function: linear; /* Defino que la velocidad en toda la transicion sea igual tanto al principio como al final */ 
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    -webkit-transition-timing-function: linear;
+    transition-duration: 0.6s; /* Defino cuanto dura la transicion  */ 
+    -moz-transition-duration: 0.6s;
+}
+
+
+
+/* ESTILOS PARA LA PAGINA DE TIENDA */
+.game-row {
+    width: calc(100% - 4em); 
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.main-game-col {
+    width: calc(60% - 13em);
+    float: left;
+    background-color: rgb(232, 232, 232);
+    color: #333;
+    margin-bottom: 1em;
+    height: 200px;
+    padding: 1em;
+    text-align: left;
+    padding-left: 12em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.main-img-game-col {
+    width: calc(40% - 2em);
+    float: left;
+    background-color: rgb(232, 232, 232);
+    margin-bottom: 1em;
+    height: 200px;
+    padding: 1em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.games-sub-col {
+    width: calc(25% - 4em);
+    float: left;
+    margin: 2em;
+}
+.game-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 0.5em;
+}
+
+
+/* ESTILOS PARA LA PAGINA DE PRODUCTO */
+#product-row {
+    width: 100%;
+}
+#product-img-col {
+    width: calc(60% - 2em);
+    float: left;
+    padding-left: 2em;
+}
+#product-desc-col {
+    width: calc(40% - 2em);
+    float: left;
+    text-align: left;
+    padding-right: 2em;
+}
+#img-product {
+    width: 80%;
+}
+th {
+    border-bottom: 2px solid #4ecdc4;
+}
+#contenido tr {
+    line-height: 2em;
+}
+#clear-left {
+    clear: left;
+}
+#rel-products {
+    width: 100%;
+}
+.space-rel-products {
+    width: 20%;
+    float: left;
+}
+.rel-product-img {
+    width: calc(20% - 2em);
+    float: left;
+    margin: 1em;
+}
+
+
+/* ESTILOS PARA LA PAGINA DE CONTACTANOS */
+#title-div {
+    width: calc(100% - 4em);
+    background-color: rgba(34, 82, 79, 0.9);
+    padding: 2em;
+}
+#contact-row {
+    width: 100%;
+}
+#map-col-contact {
+    width: calc(55% - 2em);
+    float: left;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+#map-col-contact iframe {
+    width: 90%;
+    min-height: 450px;
+}
+#form-col {
+    width: calc(45% - 1em);
+    float: left;
+    padding-top: 2em;   
+    padding-right: 1em;
+}
+#contact-form {
+    text-align: left;
+}
+.input-style {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.input-style input{
+    width: 80%;
+}
+textarea {
+    width: 100%;
+    height: 200px;
+}
+button {
+    border-top: 0px ;
+    border-right: 0px;
+    border-left: 0px;
+}
+form button {
+    margin-top: 1em;
+    margin-right: 1em;
+    width: 100%;
+    background-color: #fff;
+    color: #333;
+}
+
+
+/* ESTILOS PARA LA PAGINA SOBRE NOSOTROS */
+#about-square-row {
+    width: calc(100% - 8em);
+    padding: 4em;
+}
+.more-info-row {
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.more-info-col-text {
+    width: calc(50% - 4em);
+    float: left;
+    padding: 2em;
+    height: 300px;
+    text-align: left;
+}
+.more-info-col-text h2{
+    border-bottom: 2px solid #fff;
+    padding-left: 2em;
+    padding-bottom: 1em;
+}
+.more-info-col-text ul {
+    list-style: none;  /* Le quito el punto de la lista para que luego en el before le pueda poner el ✓ */
+}
+.more-info-col-text ul li {
+    padding: 1em;
+}
+.more-info-col-text ul li:before {
+    content: '✓ '; 
+}
+.more-info-col-img {
+    width: calc(50% - 4em);
+    margin: 2em;
+    float: left;
+    background-image: url("https://placeimg.com/1920/1080/tech");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.sub-col-1 {
+    width: calc(50% - 2em);
+    float: left;
+    background-color: rgba(57, 171, 163, 0.7);
+    height: 300px;
+    text-align: left;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.sub-col-2 {
+    width: 50%;
+    float: left;
+}
+
+
+/* ESTILOS PAGINA DE CINE */ 
+#title-cinema-row {
+    width: 100%;
+    text-align: center
+}
+.title-game {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    background-color: rgba(34, 82, 79, 0.8);
+    padding: 1em;
+    width: 60%;
+    margin-left: 20%;
+    border-bottom-right-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-left: 5px solid #4ecdc4;
+    clear: left;
+}
+.video-row {
+    width: calc(100% - 4em);
+    padding: 2em;
+}
+.video-col {
+    width: calc(50% - 2em);
+    float: left;
+    padding: 1em;
+    
+}
+.video-col iframe{
+    width: 100%;
+    height: 300px;
+    border-bottom: 2px solid #4ecdc4;
+}
+.kb-title {
+    width: 5%;
+ 
+}
+
+
 
 /* ESTILOS RAPIDOS */
 .pt1 {

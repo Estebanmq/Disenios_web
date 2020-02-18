@@ -1,0 +1,193 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Esteban Martínez Quintanar"/>
+    <meta name="keywords" content="HTML,CSS"/>
+    <meta name="description" content="Square Enix Sitio No Oficial"/> 
+    <!-- HOJAS DE ESTILOS -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style2.css" media="screen and (max-width:1220px)"/>
+    <link rel="stylesheet" href="css/style3.css" media="screen and (max-width:1000px)"/>
+    <!-- FUENTE DE GOOGLE-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap" rel="stylesheet"/>
+    <title>Square Enix - Inicio</title>
+</head>
+<body>
+    <!-- NAVEGACION -->
+    <nav>
+        <div id="navbar-content"><!-- Contenedor para el navbar -->
+            <div id="logo-container"><!-- Contenedor del logo -->
+                <img id="logo" src="img/logo.svg" alt="Logo Square Enix"/>
+            </div>
+            <div id="links-container"><!-- Contenedor de los links de navegacion -->
+                <ul>           
+                    <li><a href="index.xhtml">Inicio</a></li>
+                    <li><a href="galeria.xhtml">Galería</a></li>
+                    <li><a href="blog.xhtml">Blog</a></li>
+                    <li><a id="active" href="#">Cine</a></li>
+                    <li><a href="juegos.xhtml">Juegos</a></li>
+                    <li><a href="tienda.xhtml">Tienda</a></li>
+                    <li><a href="nosotros.xhtml">Sobre nosotros</a></li>
+                    <li><a href="contacto.xhtml">Contactanos</a></li>
+                </ul>
+            </div><!-- Cierre contenedor de links de navegacion -->
+            <div id="links-container-small-screen"><!-- Contenedor para la navegacion en pantallas mas pequeñas
+            por defecto oculto -->
+                <button id="btn-dropdown"><img src="img/menu-icon.png" alt="Icono menu" id="menu-icon"/></button> <!-- Boton para mostrar el dropdown-menu con la barra de navegacion -->                
+                <br/>
+                <br/>
+                <div id="dropdown-menu">                
+                    <a href="index.xhtml" >Inicio</a>
+                    <a href="galeria.xhtml">Galeria</a>
+                    <a href="blog.xhtml">Blog</a>
+                    <a id="active-ss" href="#">Cine</a>
+                    <a href="tienda.xhtml">Tienda</a>
+                    <a href="juegos.xhtml">Juegos</a>
+                    <a href="nosotros.xhtml">Sobre nosotros</a>
+                    <a href="contacto.xhtml">Contactanos</a>
+                </div>                     
+            </div><!-- Cierre contenedor navegacion pantallas pequeñas -->  
+        </div><!-- Cierre contenedor para navbar -->           
+    </nav>
+    <!-- FIN DE NAVEGACION -->
+    <!-- CONTENIDO PRINCIPAL-->
+    <main id="main-container">
+        <div id="title-cinema-row"><!-- Contenedor titulo pagina -->
+            <h2>Bienvenido al cine de Kindom Hearts</h2>
+            <p>Desde aqui podras disfrutar de todos los videos online de Kingdom Hearts</p>
+        </div><!-- Fin Contenedor titulo pagina -->
+
+        <hr/><!-- Separador juego -->
+
+        <div class="title-game">
+            <h2>Kingdom Hearts 3</h2>
+            <img class="kb-title" src="img/kb-2.png" alt="Imagen Llave Espada"/>
+        </div>
+        <div class="video-row"><!-- Fila de videos-->
+            <div class="video-col"><!-- Columna 1 video -->
+                <iframe src="https://www.youtube.com/embed/2VawSnaxtSI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <h4>Opening Kingdom Hearts 3</h4>
+            </div><!-- Fin Columna 1 video -->
+            <div class="video-col"><!-- Columna 1 video -->
+                <iframe src="https://www.youtube.com/embed/fn5WNxy-Wcw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <h4>Trailer Piratas del Caribe E3</h4>
+            </div><!-- Fin Columna 1 video -->
+        </div><!-- Fin Fila de videos-->
+        <div class="video-row"><!-- Fila de videos-->
+            <div class="video-col"><!-- Columna 1 video -->
+                <iframe src="https://www.youtube.com/embed/bPo5PXeUco4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <h4>Trailer #1 de Orquesta</h4>
+            </div><!-- Fin Columna 1 video -->
+            <div class="video-col"><!-- Columna 1 video -->
+                <iframe src="https://www.youtube.com/embed/g25v8yngOsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <h4>Trailer #2 de Orquesta</h4>
+            </div><!-- Fin Columna 1 video -->
+        </div><!-- Fin Fila de videos-->
+        
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        
+        <div class="title-game">
+            <h2>Kingdom Hearts 2</h2>
+            <img class="kb-title" src="img/kb-3d.png" alt="Imagen Llave Espada"/>
+        </div>
+        <div class="video-row"><!-- Fila de videos-->
+            <div class="video-col"><!-- Columna 1 video -->
+                <iframe src="https://www.youtube.com/embed/zkTA82M7BJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <h4>Fight The Darkness Trailer</h4>
+            </div><!-- Fin Columna 1 video -->
+            <div class="video-col"><!-- Columna 1 video -->
+                <iframe src="https://www.youtube.com/embed/Wv0zANnJiVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <h4>Kingdom Hearts 1.5+2.5 Remix</h4>
+            </div><!-- Fin Columna 1 video -->
+        </div><!-- Fin Fila de videos-->
+
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        
+        <div class="title-game">
+            <h2>Kingdom Hearts 2.8</h2>
+            <img class="kb-title" src="img/kb-x.png" alt="Imagen Llave Espada"/>
+        </div>
+        <div class="video-row"><!-- Fila de videos-->
+            <div class="video-col"><!-- Columna 1 video -->
+                <iframe src="https://www.youtube.com/embed/fkN9OBVHX-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <h4>Kingdom Hearts 2.8 Ray OH Hope</h4>
+            </div><!-- Fin Columna 1 video -->
+            <div class="video-col"><!-- Columna 1 video -->
+                <iframe src="https://www.youtube.com/embed/he55FODhLYE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <h4>Kingdom Hearts 2.8 Edicion Coleccionista</h4>
+            </div><!-- Fin Columna 1 video -->
+        </div><!-- Fin Fila de videos-->
+        <div class="video-row"><!-- Fila de videos-->
+            <div class="video-col"><!-- Columna 1 video -->
+                <iframe src="https://www.youtube.com/embed/Irl_Dc-Tc8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <h4>Cinematica de apertura </h4>
+            </div><!-- Fin Columna 1 video -->
+            <div class="video-col"><!-- Columna 1 video -->
+                <iframe src="https://www.youtube.com/embed/4gKAR0uRZZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <h4>Trailer TGS</h4>
+            </div><!-- Fin Columna 1 video -->
+        </div><!-- Fin Fila de videos-->
+
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+    </main>
+    <!-- FIN CONTENIDO PRINCIPAL -->
+
+    <!-- FOOTER -->
+    <div id="footer-container"><!-- Contenedor para el footer -->
+        <footer>
+            <div id="col1"><!-- Columna 1 para el footer-posicionamiento en la izquierda -->
+                <ul>           
+                    <li class="li-c1-style"><h4>Sobre nosotros</h4></li>
+                    <!---->
+                    <li class="li-c1-style">Direccion</li>                    
+                    <li class="sub-ul-c1">Calle Corazon Nª15</li>                    
+                    <!---->
+                    <li class="li-c1-style pt1">Email de contacto</li>                    
+                    <li class="sub-ul-c1">example@example.com</li>                    
+                    <!---->
+                    <li class="li-c1-style pt1">Telefono de contacto</li>
+                    <li class="sub-ul-c1">123-456-789</li>
+                    <!---->
+                </ul>
+            </div><!-- Fin columna 1 -->
+            <div id="col2"><!-- Columna 2 para el footer-posicionamiento centrado -->
+                <ul>           
+                    <li class="li-c2-style"><h4>Nuestro equipo</h4></li>
+                    <!---->
+                    <li class="li-c2-style">Developers</li>                   
+                    <li class="sub-ul-c2">Esteban Martínez Quintanar</li>
+                    <!---->
+                    <li class="li-c2-style pt1">Front End</li>               
+                    <li class="sub-ul-c2">Esteban Martínez Quintanar</li>     
+                    <!---->
+                    <li class="li-c2-style pt1">Back End</li>              
+                    <li class="sub-ul-c2">Esteban Martínez Quintanar</li>
+                    <!---->
+                </ul>
+            </div><!-- Fin columna 2 -->
+            <div id="col3"><!-- Columna 3 para el footer-posicionamiento en la derecha -->
+                <ul class="pr3">           
+                    <li class="li-c3-style"><h4>Redes Sociales</h4></li>
+                    <!---->
+                    <li class="li-c3-style">Twitter</li>
+                    <li class="sub-ul-c3">@estebanmq09</li>
+                    <!---->
+                    <li class="li-c3-style pt1">Instagram</li>
+                    <li class="sub-ul-c3">Esteban Martínez Quintanar</li>
+                    <!---->
+                    <li class="li-c3-style pt1">Gmail</li>
+                    <li class="sub-ul-c3">estebanmq.09@gmail.com</li>
+                    <!---->                  
+                </ul>
+            </div><!-- Fin columna 3 -->          
+            <p id="copy">&copy; 2020 Esteban Martínez Quintanar, Madrid, España</p> <!-- Parrafo centrado para el Copyright -->
+        </footer>    
+    </div><!-- Fin contenedor para el footer -->
+    <!-- FIN FOOTER -->
+</body>
+</html>

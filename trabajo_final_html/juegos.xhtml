@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Esteban Martínez Quintanar"/>
+    <meta name="keywords" content="HTML,CSS"/>
+    <meta name="description" content="Square Enix Sitio No Oficial"/> 
+    <!-- HOJAS DE ESTILOS -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style2.css" media="screen and (max-width:1220px)"/>
+    <link rel="stylesheet" href="css/style3.css" media="screen and (max-width:1000px)"/>
+    <!-- FUENTE DE GOOGLE-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap" rel="stylesheet"/>
+    <title>Square Enix - Inicio</title>
+</head>
+<body>
+    <!-- NAVEGACION -->
+    <nav>
+        <div id="navbar-content"><!-- Contenedor para el navbar -->
+            <div id="logo-container"><!-- Contenedor del logo -->
+                <img id="logo" src="img/logo.svg" alt="Logo Square Enix"/>
+            </div>
+            <div id="links-container"><!-- Contenedor de los links de navegacion -->
+                <ul>           
+                    <li><a href="index.xhtml">Inicio</a></li>
+                    <li><a href="galeria.xhtml">Galería</a></li>
+                    <li><a href="blog.xhtml">Blog</a></li>
+                    <li><a href="cine.xhtml">Cine</a></li>
+                    <li><a href="#" id="active">Juegos</a></li>
+                    <li><a href="tienda.xhtml">Tienda</a></li>
+                    <li><a href="nosotros.xhtml">Sobre nosotros</a></li>
+                    <li><a href="contacto.xhtml">Contactanos</a></li>
+                </ul>
+            </div><!-- Cierre contenedor de links de navegacion -->
+            <div id="links-container-small-screen"><!-- Contenedor para la navegacion en pantallas mas pequeñas
+            por defecto oculto -->
+                <button id="btn-dropdown"><img src="img/menu-icon.png" alt="Icono menu" id="menu-icon"/></button> <!-- Boton para mostrar el dropdown-menu con la barra de navegacion -->             
+                <br/>
+                <br/>   
+                <div id="dropdown-menu">                
+                    <a href="index.xhtml">Inicio</a>
+                    <a href="galeria.xhtml">Galeria</a>
+                    <a href="blog.xhtml">Blog</a>
+                    <a href="cine.xhtml">Cine</a>
+                    <a href="#" id="active-ss">Juegos</a>
+                    <a href="tienda.xhtml">Tienda</a>
+                    <a href="nosotros.xhtml">Sobre nosotros</a>
+                    <a href="contacto.xhtml">Contactanos</a>
+                </div>                     
+            </div><!-- Cierre contenedor navegacion pantallas pequeñas -->  
+        </div><!-- Cierre contenedor para navbar -->           
+    </nav>
+    <!-- FIN DE NAVEGACION -->
+    <!-- CONTENIDO PRINCIPAL-->
+    <main id="main-container">
+        <div id="title">
+            <h1>Cronología Oficial</h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <h2>Episodio 0.5: Punto de partida</h2>
+        <div class="games-row"><!-- Contenedor fila juegos -->
+            <div class="games-col" id="to-info-game-1"><!-- Contenedor columna 1 -->
+                <img src="img/kb-x.png" alt="Imagen marcador" class="pin-img"/>
+                <h2>Kingdom Hearts: Union X</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, ab deleniti?</p>
+                <div class="hidden-info" id="info-game-1"><!-- Contenedor informacion extra -->
+                    <img src="https://placeimg.com/1920/1080/arch" alt="Imagen etapa #1" class="img-phase"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, harum.</p>
+                </div><!-- Fin ontenedor informacion extra -->
+            </div><!-- Fin Contenedor columna 1 -->
+            <div class="scroll-space"><h1></h1></div><!-- Contenedor con un h1 vacio para hacer mas facil el scroll con trackpad y pantallas tactiles-->
+            <div class="games-col" id="to-info-game-2">
+                <img src="img/kb-dr.png" alt="Imagen marcador" class="pin-img"/>
+                <h2>Kingdom Hearts Dark Road</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, ab deleniti?</p>
+                <div class="hidden-info" id="info-game-2"><!-- Contenedor informacion extra -->
+                    <img src="https://placeimg.com/1920/1080/arch" alt="Imagen etapa #2" class="img-phase"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, harum.</p>
+                </div><!-- Fin ontenedor informacion extra -->
+            </div>
+        </div><!-- Fin Contenedor fila juegos -->
+
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+
+        <div class="title-chapter">
+            <h2>Episodio 1: Partidas</h2>
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/WuDUeMwYols" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        </div>
+        <div class="games-row"><!-- Contenedor fila juegos -->
+            <div class="games-col" id="to-info-game-3"><!-- Contenedor columna 1 -->
+                <img src="img/kb-1.webp" alt="Imagen marcador" class="pin-img"/>
+                <h2>Kingdom Hearts 1</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, ab deleniti?</p>
+                <div class="hidden-info" id="info-game-3"><!-- Contenedor informacion extra -->
+                    <img src="https://placeimg.com/1920/1080/arch" alt="Imagen etapa #3" class="img-phase"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, harum.</p>
+                </div><!-- Fin ontenedor informacion extra -->
+            </div><!-- Fin Contenedor columna 1 -->
+            <div class="scroll-space"><h1></h1></div><!-- Contenedor con un h1 vacio para hacer mas facil el scroll con trackpad y pantallas tactiles-->
+            <div class="games-col" id="to-info-game-4">
+                <img src="img/kb-rc.png" alt="Imagen marcador" class="pin-img"/>
+                <h2>Kingdom Hearts Re:Coded</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, ab deleniti?</p>
+                <div class="hidden-info" id="info-game-4"><!-- Contenedor informacion extra -->
+                    <img src="https://placeimg.com/1920/1080/arch" alt="Imagen etapa #4" class="img-phase"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, harum.</p>
+                </div><!-- Fin ontenedor informacion extra -->
+            </div>
+        </div><!-- Fin Contenedor fila juegos -->
+
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="title-chapter">
+            <h2>Episodio 2: Recuerdos</h2>
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/hEOoCjg7ItI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        </div>
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="games-row"><!-- Contenedor fila juegos -->
+            <div class="scroll-space-1c"><h1></h1></div>
+            <div class="games-col" id="to-info-game-5"><!-- Contenedor columna 1 -->
+                <img src="img/kb-com.png" alt="Imagen marcador" class="pin-img"/>
+                <h2>Kingdom Hearts: Re CoM</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, ab deleniti?</p>
+                <div class="hidden-info" id="info-game-5"><!-- Contenedor informacion extra -->
+                    <img src="https://placeimg.com/1920/1080/arch" alt="Imagen etapa #5" class="img-phase"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, harum.</p>
+                </div><!-- Fin ontenedor informacion extra -->
+            </div><!-- Fin Contenedor columna 1 -->
+            <div class="scroll-space-1c"><h1></h1></div><!-- Contenedor con un h1 vacio para hacer mas facil el scroll con trackpad y pantallas tactiles-->
+        </div><!-- Fin Contenedor fila juegos -->
+
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="title-chapter">
+            <h2>Episodio 3: Crepusculo</h2>
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/XLACyM1HTWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        </div>
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="games-row"><!-- Contenedor fila juegos -->
+            <div class="scroll-space-1c"><h1></h1></div>
+            <div class="games-col" id="to-info-game-6"><!-- Contenedor columna 1 -->
+                <img src="img/kb-358.png" alt="Imagen marcador" class="pin-img"/>
+                <h2>Kingdom Hearts 358/2 días</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, ab deleniti?</p>
+                <div class="hidden-info" id="info-game-6"><!-- Contenedor informacion extra -->
+                    <img src="https://placeimg.com/1920/1080/arch" alt="Imagen etapa #6" class="img-phase"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, harum.</p>
+                </div><!-- Fin ontenedor informacion extra -->
+            </div><!-- Fin Contenedor columna 1 -->
+            <div class="scroll-space-1c"><h1></h1></div><!-- Contenedor con un h1 vacio para hacer mas facil el scroll con trackpad y pantallas tactiles-->
+        </div><!-- Fin Contenedor fila juegos -->
+
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="title-chapter">
+            <h2>Episodio 4: Alba</h2>
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/6_0Gtzdi0k8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        </div>
+
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+        <div class="title-chapter">
+            <h2>Episodio 5: Oscuridad</h2>
+            <iframe width="600" height="315" src="https://www.youtube.com/embed/cgM0b9ORKIo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        </div>
+        <div class="games-row"><!-- Contenedor fila juegos -->
+            <div class="games-col" id="to-info-game-7"><!-- Contenedor columna 1 -->
+                <img src="img/kb-2.png" alt="Imagen marcador" class="pin-img"/>
+                <h2>Kingdom Hearts 2</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, ab deleniti?</p>
+                <div class="hidden-info" id="info-game-7"><!-- Contenedor informacion extra -->
+                    <img src="https://placeimg.com/1920/1080/arch" alt="Imagen etapa #7" class="img-phase"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, harum.</p>
+                </div><!-- Fin ontenedor informacion extra -->
+            </div><!-- Fin Contenedor columna 1 -->
+            <div class="scroll-space"><h1></h1></div><!-- Contenedor con un h1 vacio para hacer mas facil el scroll con trackpad y pantallas tactiles-->
+            <div class="games-col" id="to-info-game-8">
+                <img src="img/kb-3d.png" alt="Imagen marcador" class="pin-img"/>
+                <h2>Kingdom Hearts 3D</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia, ab deleniti?</p>
+                <div class="hidden-info" id="info-game-8"><!-- Contenedor informacion extra -->
+                    <img src="https://placeimg.com/1920/1080/arch" alt="Imagen etapa #8" class="img-phase"/>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, harum.</p>
+                </div><!-- Fin ontenedor informacion extra -->
+            </div>
+        </div><!-- Fin Contenedor fila juegos -->
+        <a class="btn-navigation" href="#main-container">Volver arriba</a>
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
+
+    </main>
+    <!-- FIN CONTENIDO PRINCIPAL -->
+
+    <!-- FOOTER -->
+    <div id="footer-container"><!-- Contenedor para el footer -->
+        <footer>
+            <div id="col1"><!-- Columna 1 para el footer-posicionamiento en la izquierda -->
+                <ul>           
+                    <li class="li-c1-style"><h4>Sobre nosotros</h4></li>
+                    <!---->
+                    <li class="li-c1-style">Direccion</li>                    
+                    <li class="sub-ul-c1">Calle Corazon Nª15</li>                    
+                    <!---->
+                    <li class="li-c1-style pt1">Email de contacto</li>                    
+                    <li class="sub-ul-c1">example@example.com</li>                    
+                    <!---->
+                    <li class="li-c1-style pt1">Telefono de contacto</li>
+                    <li class="sub-ul-c1">123-456-789</li>
+                    <!---->
+                </ul>
+            </div><!-- Fin columna 1 -->
+            <div id="col2"><!-- Columna 2 para el footer-posicionamiento centrado -->
+                <ul>           
+                    <li class="li-c2-style"><h4>Nuestro equipo</h4></li>
+                    <!---->
+                    <li class="li-c2-style">Developers</li>                   
+                    <li class="sub-ul-c2">Esteban Martínez Quintanar</li>
+                    <!---->
+                    <li class="li-c2-style pt1">Front End</li>               
+                    <li class="sub-ul-c2">Esteban Martínez Quintanar</li>     
+                    <!---->
+                    <li class="li-c2-style pt1">Back End</li>              
+                    <li class="sub-ul-c2">Esteban Martínez Quintanar</li>
+                    <!---->
+                </ul>
+            </div><!-- Fin columna 2 -->
+            <div id="col3"><!-- Columna 3 para el footer-posicionamiento en la derecha -->
+                <ul class="pr3">           
+                    <li class="li-c3-style"><h4>Redes Sociales</h4></li>
+                    <!---->
+                    <li class="li-c3-style">Twitter</li>
+                    <li class="sub-ul-c3">@estebanmq09</li>
+                    <!---->
+                    <li class="li-c3-style pt1">Instagram</li>
+                    <li class="sub-ul-c3">Esteban Martínez Quintanar</li>
+                    <!---->
+                    <li class="li-c3-style pt1">Gmail</li>
+                    <li class="sub-ul-c3">estebanmq.09@gmail.com</li>
+                    <!---->                  
+                </ul>
+            </div><!-- Fin columna 3 -->          
+            <p id="copy">&copy; 2020 Esteban Martínez Quintanar, Madrid, España</p> <!-- Parrafo centrado para el Copyright -->
+        </footer>    
+    </div><!-- Fin contenedor para el footer -->
+    <!-- FIN FOOTER -->
+</body>
+</html>

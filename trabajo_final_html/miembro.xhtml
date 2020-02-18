@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style3.css" media="screen and (max-width:1000px)"/>
     <!-- FUENTE DE GOOGLE-->
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&amp;display=swap" rel="stylesheet"/>
-    <title>Square Enix - Galeria</title>
+    <title>Square Enix - Inicio</title>
 </head>
 <body>
     <!-- NAVEGACION -->
@@ -25,7 +25,7 @@
             <div id="links-container"><!-- Contenedor de los links de navegacion -->
                 <ul>           
                     <li><a href="index.xhtml">Inicio</a></li>
-                    <li><a id="active" href="#">Galería</a></li>
+                    <li><a href="galeria.xhtml">Galería</a></li>
                     <li><a href="blog.xhtml">Blog</a></li>
                     <li><a href="cine.xhtml">Cine</a></li>
                     <li><a href="juegos.xhtml">Juegos</a></li>
@@ -34,17 +34,18 @@
                     <li><a href="contacto.xhtml">Contactanos</a></li>
                 </ul>
             </div><!-- Cierre contenedor de links de navegacion -->
-            <div id="links-container-small-screen"><!-- Contenedor para la navegacion en pantallas mas pequeñas por defecto oculto -->
+            <div id="links-container-small-screen"><!-- Contenedor para la navegacion en pantallas mas pequeñas
+            por defecto oculto -->
                 <button id="btn-dropdown"><img src="img/menu-icon.png" alt="Icono menu" id="menu-icon"/></button> <!-- Boton para mostrar el dropdown-menu con la barra de navegacion -->             
                 <br/>
-                <br/>
+                <br/>   
                 <div id="dropdown-menu">                
                     <a href="index.xhtml">Inicio</a>
-                    <a  id="active-ss" href="#">Galeria</a>
+                    <a href="galeria.xhtml">Galeria</a>
                     <a href="blog.xhtml">Blog</a>
                     <a href="cine.xhtml">Cine</a>
                     <a href="juegos.xhtml">Juegos</a>
-                    <a href="tienda.xhtml">Tienda</a>
+                    <a href="tienda.xhtml">Tienda</a>                    
                     <a href="nosotros.xhtml">Sobre nosotros</a>
                     <a href="contacto.xhtml">Contactanos</a>
                 </div>                     
@@ -54,73 +55,41 @@
     <!-- FIN DE NAVEGACION -->
     <!-- CONTENIDO PRINCIPAL-->
     <main id="main-container">
-        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
-        <h2>¡Bienvenido a la galería de Kingdom Hearts 3!</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate illum nulla praesentium, dolore iure vitae similique consequuntur repudiandae est excepturi?º</p>
-        <a class="btn-navigation m1 mt1" href="#gameplay">Gameplay</a>
-        <a class="btn-navigation m1 mt1" href="#lore">Historia</a>
-        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
-        <h2 id="gameplay">Imagenes In-game</h2>
-        <div id="container-galery">
-            <!-- 2 IMAGENES -->
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/arch" alt="Imagen de la galeria"/>
-            </div> 
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/tech" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
+        
+        <div class="about-member-container"><!-- Contenedor perfil miembro-->
+            <div class="member-info-container-1"><!-- Contenedor izquierdo foto miembro-->
+                <img src="https://placeimg.com/894/894/people" alt="Imagen miembro del equipo" class="member-page-style-img"/>
+            </div><!-- Fin Contenedor izquierdo foto miembro-->
+            <div class="member-info-container-2"><!-- Contenedor derecho nombre descripcion miembro-->
+                <h2>Nombre del miembro</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quidem vitae officiis soluta.</p>
+            </div><!-- FIN Contenedor derecho nombre descripcion miembro-->
 
-            <!-- 2 IMAGENES -->
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/animals" alt="Imagen de la galeria"/>
-            </div> 
-      
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/nature" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
-
-            <!-- 2 IMAGENES -->
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/people" alt="Imagen de la galeria"/>
-            </div> 
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/tech" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
-
-            <hr/>
-            <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->            
-            <h2>Imagenes de la historia</h2>            
-
-            <!-- 2 IMAGENES -->
-            <div id="lore" class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/arch" alt="Imagen de la galeria"/>
-            </div> 
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/tech" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
-
-            <!-- 2 IMAGENES -->
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/grayscale" alt="Imagen de la galeria"/>
-            </div> 
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/arch" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
-
-            <!-- 2 IMAGENES -->
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/animals" alt="Imagen de la galeria"/>
-            </div> 
-            <div class="img-space">
-                <img class="img-galery" src="https://placeimg.com/1920/1080/sepia" alt="Imagen de la galeria"/>
-            </div> 
-            <!-- FIN 2 IMAGENES -->
-        </div>
+            <div class="about-container-f"> <!-- Contenedor descripcion miembro-->
+                <div class="about-container"> <!-- Contenedor proyectos miembro-->
+                    <h2>Proyectos</h2>
+                    <ul>
+                        <li><em>Proyecto #1</em>: Lorem ipsum dolor sit amet consectetur.</li>
+                        <li><em>Proyecto #2</em>: Lorem ipsum dolor sit amet consectetur.</li>
+                        <li><em>Proyecto #3</em>: Lorem ipsum dolor sit amet consectetur.</li>
+                        <li><em>Proyecto #4</em>: Lorem ipsum dolor sit amet consectetur.</li>
+                    </ul>
+                </div><!-- Fin Contenedor proyectos miembro-->
+                <div class="about-container"> <!-- Contenedor proyectos miembro-->
+                    <h2>Conocimientos</h2> 
+                    <em>HTML:5</em>, <em>CSS 3</em>, <em>Java Script</em>, <em>Type Script</em>, <em>Python</em> y <em>MySQL</em>
+                </div><!-- Fin Contenedor proyectos miembro-->
+                <h2 id="rs-member">Redes Sociales</h2>
+                <div class="space-column"><h1></h1></div> <!-- Contenedor con h1 vacio para poder hacer el width correctamente-->
+                <div class="icon-column"><!-- Contenedor central para iconos-->
+                    <a href="https://twitter.com"><img class="icon" src="img/twitter-brands.svg" alt="Icono twitter"/></a>  
+                    <a href="https://instagram.com"><img class="icon" src="img/instagram-brands.svg" alt="Icono instagram"/></a> 
+                    <a href="https://linkedin.com"><img class="icon" src="img/linkedin-in-brands.svg" alt="Icono linkedin"/></a>
+                </div><!-- Fin Contenedor central para iconos-->
+                <div class="space-column"><h1></h1></div><!-- Contenedor con h1 vacio para poder hacer el width correctamente-->
+            </div><!-- Fin Contenedor descripcion miembro-->
+        </div><!-- Fin Contenedor perfil miembro-->
+        
     </main>
     <!-- FIN CONTENIDO PRINCIPAL -->
 

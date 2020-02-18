@@ -27,27 +27,27 @@
                     <li><a href="index.xhtml">Inicio</a></li>
                     <li><a href="galeria.xhtml">Galería</a></li>
                     <li><a href="blog.xhtml">Blog</a></li>
-                    <li><a id="active" href="noticias.xhtml">Notícias</a></li>
-                    <li><a href="#games-col">Juegos</a></li>
-                    <li><a href="#shop-col">Tienda</a></li>
-                    <li><a href="#t-col1">Sobre nosotros</a></li>
-                    <li><a href="#map-col">Contactanos</a></li>
+                    <li><a href="cine.xhtml">Cine</a></li>
+                    <li><a href="juegos.xhtml">Juegos</a></li>
+                    <li><a href="tienda.xhtml">Tienda</a></li>
+                    <li><a href="nosotros.xhtml">Sobre nosotros</a></li>
+                    <li><a href="#" id="active">Contactanos</a></li>
                 </ul>
             </div><!-- Cierre contenedor de links de navegacion -->
             <div id="links-container-small-screen"><!-- Contenedor para la navegacion en pantallas mas pequeñas
             por defecto oculto -->
-                <button id="btn-dropdown"><img src="img/menu-icon.png" alt="Icono menu" id="menu-icon"/></button> <!-- Boton para mostrar el dropdown-menu con la barra de navegacion -->                
+                <button id="btn-dropdown"><img src="img/menu-icon.png" alt="Icono menu" id="menu-icon"/></button> <!-- Boton para mostrar el dropdown-menu con la barra de navegacion -->             
                 <br/>
-                <br/>
+                <br/>   
                 <div id="dropdown-menu">                
-                    <a href="index.xhtml" >Inicio</a>
+                    <a href="index.xhtml">Inicio</a>
                     <a href="galeria.xhtml">Galeria</a>
                     <a href="blog.xhtml">Blog</a>
-                    <a id="active-ss" href="#">Noticias</a>
-                    <a href="#shop-col">Tienda</a>
-                    <a href="#games-col">Juegos</a>
-                    <a href="#t-col1">Sobre nosotros</a>
-                    <a href="#map-col">Contactanos</a>
+                    <a href="cine.xhtml">Cine</a>
+                    <a href="juegos.xhtml">Juegos</a>
+                    <a href="tienda.xhtml">Tienda</a>
+                    <a href="nosotros.xhtml">Sobre nosotros</a>
+                    <a href="#" id="active-ss">Contactanos</a>
                 </div>                     
             </div><!-- Cierre contenedor navegacion pantallas pequeñas -->  
         </div><!-- Cierre contenedor para navbar -->           
@@ -55,7 +55,38 @@
     <!-- FIN DE NAVEGACION -->
     <!-- CONTENIDO PRINCIPAL-->
     <main id="main-container">
+        <div id="title-div"><!-- Contenedor titulo -->
+            <h2>Contactanos!</h2>
+            <p>¿Tienes alguna pregunta?, envianos mas abajo un mensaje con tus dudas</p>
+        </div><!-- Fin Contenedor titulo -->
         
+        <div id="contact-row"><!-- Contenedor fila formulario -->
+            <div id="map-col-contact"><!-- Contenedor izquierdo mapa -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1669332.6542864926!2d136.51427855104623!3d35.19612203282215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea7d8b6e661%3A0x53c74395177b3f76!2sSquare%20Enix%20Cafe!5e0!3m2!1ses!2ses!4v1579524413614!5m2!1ses!2ses" frameborder="0" allowfullscreen=""></iframe>
+            </div><!-- Fin Contenedor izquierdo mapa -->
+            <div id="form-col"><!-- Contenedor derecho formulario -->
+                <form action="validad.php" method="GET" id="contact-form">
+                    <fieldset>
+                        <legend>Información personal</legend>
+                        <label for="nombre">Nombre y Apellidos: </label><br/>
+                        <div class="input-style">
+                            <input type="nom" name="nombre" id="nom" placeholder="Nombre y Apellidos" autocomplete="on"/><br/>
+                        </div>
+                        <label for="correo">Correo electrónico</label><br/>
+                        <div class="input-style">
+                            <input type="email" name="correo" id="correo" pattern="{50}" autocomplete="on" placeholder="example@example.com"/>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Asunto</legend>
+                        <textarea name="asunto" placeholder="Escriba aqui"></textarea>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div><!-- Fin Contenedor derecho formulario -->
+        </div><!-- Fin Contenedor fila formulario -->
+
+        <div class="space-containers"></div><!-- Contenedor vacio para añadir espacio entre contenedores-->
     </main>
     <!-- FIN CONTENIDO PRINCIPAL -->
 
