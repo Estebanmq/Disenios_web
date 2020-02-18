@@ -335,6 +335,9 @@
         width: 100%;
         
     }
+    #title {
+        padding: 0.5em;
+    }
 
 
     /* ESTILOS PARA LA PAGINA SOBRE NOSOTROS */
@@ -363,5 +366,28 @@
         width: 50%;
         border-radius: 50%;
     }
+
+
+    /* ESTILOS PARA LA PAGINA DE CONTACTO */
+    #map-col-contact {
+        width: 100%;
+        padding-left: 0em;
+    }
+    #map-col-contact iframe {
+        width: 95%;
+        min-height: 300px;
+    }
+    #form-col {
+        width: calc(100% - 1em); 
+        padding-right: 0em;
+    }
+    #form-col {
+        width: 100%; 
+        padding-right: 0em;
+    }
+    form button {      
+        margin-right: 0em;
+    }
+
 
 }
