@@ -227,32 +227,7 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-/* CONTENEDOR EQUIPO */
-.team {
-    width: 100%;
-}
-.t-col1 {
-    width: calc(33.3% - 3em);
-    height: auto;
-    float: left; 
-    color: #fff;
-}
-.t-col2 {
-    width: calc(33.3% - 3em);
-    height: auto;
-    float: left; 
-    color: #fff;
-}
-.t-col3 {
-    width: calc(33.3% - 3em);
-    height: auto;
-    float: left; 
-    color: #fff;
-}
-.member-style {
-    width: 50%;
-    border-radius: 50%;
-}
+
 /* ESTILOS FOOTER */
 footer {
     width: 100%;
@@ -515,7 +490,6 @@ footer > p {
     margin-bottom: 1em;
 }
 .about-container-f {
-    
     border-radius: 0.5em;
     margin-left: 3em;
     margin-right: 3em;
@@ -568,14 +542,6 @@ footer > p {
     width: 45%;
     float: left;
 }
-.games-sub-col-1 {
-    width: 30%;
-    float: left;
-}
-.games-sub-col-2 {
-    width: 70%;
-    float: left;
-}
 .pin-img {
     width: 20%;
 }
@@ -601,7 +567,7 @@ footer > p {
 #to-info-game-3:hover #info-game-3, #to-info-game-4:hover #info-game-4,
 #to-info-game-5:hover #info-game-5, #to-info-game-6:hover #info-game-6,
 #to-info-game-7:hover #info-game-7, #to-info-game-8:hover #info-game-8 {
-    height: 300px;
+    height: 200px;
     visibility: visible;
 }
 #to-info-game-1 #info-game-1, #to-info-game-2 #info-game-2,
@@ -811,6 +777,32 @@ form button {
 .sub-col-2 {
     width: 50%;
     float: left;
+}
+/* CONTENEDOR EQUIPO */
+.team {
+    width: 100%;
+}
+.t-col1 {
+    width: calc(33.3% - 3em);
+    height: auto;
+    float: left; 
+    color: #fff;
+}
+.t-col2 {
+    width: calc(33.3% - 3em);
+    height: auto;
+    float: left; 
+    color: #fff;
+}
+.t-col3 {
+    width: calc(33.3% - 3em);
+    height: auto;
+    float: left; 
+    color: #fff;
+}
+.member-style {
+    width: 50%;
+    border-radius: 50%;
 }
 
 

@@ -44,8 +44,43 @@
         margin: 0.5em;
     }
 
+
     /* ESTILOS PARA LA PAGINA DE BLOG */
     .title-blog h1{
         padding-top: 2em;
     }
+
+
+    /* ESTILOS PARA LA PAGINA DE POST */
+    #img-title-row div {
+        background-color: rgba(33, 33, 33, 0.8);
+        height: 250px;
+        display: block;
+        display: -webkit-block;
+        align-items: center;
+        justify-content: center;
+    }
+    #img-title-row div h2{
+       padding-top: 5em;
+    }
+
+
+     /* ESTILOS PARA LA PAGINA DE TIENDA */
+    .games-sub-col {
+        width: calc(50% - 2em);
+        float: left;
+        margin: 1em;        
+    }
+
+
+    /* ESTILOS PARA LA PAGINA DE JUEGOS */
+    #title {
+        background-color: rgba(74, 74, 74, 0.9);
+        padding: 3em;
+    }
+    .title-chapter h2 {
+        width: 50%;
+        margin-left: 25%;
+    }
+
 }
